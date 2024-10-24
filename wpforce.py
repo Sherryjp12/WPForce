@@ -71,7 +71,7 @@ def BuildThreads(list_array,url,debug,userlist,verbose,agent):
     if debug:
         print "Here is the content of the wordlists for each thread"
         for i in range(len(list_array)):
-            print "Thread " + str(i)
+            print "Thread" + str(i)
             printout(str(list_array[i]), YELLOW)
             print "\n-----------------------------------------------------"
     threads = []
