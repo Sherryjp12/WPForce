@@ -69,7 +69,6 @@ def worker(wordlist,thread_no,url,userlist,verbose,debug,agent):
 
 def BuildThreads(list_array,url,debug,userlist,verbose,agent):
     if debug:
-        print "___"
         for i in range(len(list_array)):
             print "Thread" + str(i)
             printout(str(list_array[i]), YELLOW)
